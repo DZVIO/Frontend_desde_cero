@@ -1,0 +1,45 @@
+<!DOCTYPE html> <!-- instrucción para el navegador sobre el tipo de documento que se está utilizando, en este caso HTML5 -->
+<html lang="es"> <!-- etiqueta raíz del documento HTML, con el atributo "lang" que indica el idioma del contenido (en este caso, español) -->
+    <head> <!-- contiene los metadatos del documento, como el título, la codificación de caracteres y la configuración de la vista (CSS, JavaScript) -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Nocias</title>
+    </head>
+    <body><!-- aquí van todos los elementos co los que el usurio va a interactuar, como texto, imágenes, enlaces, etc. Es el contenido visible de la página web. -->
+        <header>
+            <h1>Fucks News</h1>
+            <nav>
+                <ul>
+                    <li><a href="#inicio">inicio</a></li>
+                    <li><a href="#noticias">noticias</a></li>
+                    <li><a href="#contacto">contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main><!-- contine el contenido proncipal de la pagina, no debe contener elementos que no estén relacionados con el tema principal de la página, como barras laterales, anuncios, etc. Es el corazón de la página web y es donde se encuentra la información más importante para los usuarios. -->
+            <section id="inicio"><!-- cada sectión representa un tema diferente dentro de la pagina, como inicio, noticias, contacto, etc -->
+                <h2>Somos Fucks News</h2>
+                <p>Somos un grupo de personas que se dedican a publicar noticias falsas para divertirnos y entretener a la gente. No nos tomamos en serio lo que publicamos, solo queremos hacer reír a la gente con nuestras historias absurdas y ridículas.</p>
+            </section>
+            <section id="noticias">
+                <h2>06/04/2026</h2>
+                <aside><!-- contenido relacionado con el tema principal de la página, pero que no es parte del contenido principal. Se utiliza para mostrar información adicional, como anuncios, enlaces relacionados, etc. El contenido del aside debe ser relevante para el tema principal de la página, pero no debe ser tan importante como para ser incluido en el contenido principal. -->
+                    <h3>Publicidad</h3>
+                    <p>Contenido de publicidad...</p>
+                </aside>
+                <article><!-- es utilizado para ingresar algun contenido como noticias, articulos, comentarios, etc. Es un contenedor semántico que se utiliza para organizar el contenido de una página web de manera estructurada y fácil de entender para los usuarios y los motores de búsqueda. Cada artículo debe tener un título (utilizando la etiqueta <h3>) y un párrafo de contenido (utilizando la etiqueta <p>) para describir la noticia o el tema que se está tratando. -->
+                    <h3>Noticia 1</h3>
+                    <p>Contenido de la noticia 1...</p>
+                </article>
+                <article>
+                    <h3>Noticia 2</h3>
+                    <p>Contenido de la noticia 2...</p>
+                </article>
+                <article>
+                    <h3>Noticia 3</h3>
+                    <p>Contenido de la noticia 3...</p>
+                </article>
+            </section>
+        </main>
+    </body>
+</html>
