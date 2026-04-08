@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla</title>
+</head>
+<body>
+    <main>
+        <h1>Planetas</h1>
+        <table> <!-- etiqueta que se utiliza para crear una tabla en HTML. -->
+            <thead> <!-- cabecera de la tabla, que contiene las filas de encabezado -->
+                <tr> <!-- define una fila de la tabla -->
+                    <th colspan="2">&nbsp;</th> <!-- "colspan" indica el numero de columnas que  va a ocupar esa selda. en este caso serían 2 -->
+                    <th>Nombre</th><!-- contenido de en negrita de la celda de la fila de encabezado-->
+                    <th>Masa</th>
+                    <th>Diametro</th>
+                    <th>Densidad</th>
+                    <th>Gravedad</th>
+                    <th>Duración del día</th>
+                    <th>Distancia al Sol</th>
+                    <th>Tempratura</th>
+                    <th>Lunas</th>
+                </tr>
+            </thead>
+            <tbody><!-- indica el cuerpo de la tabla, que contiene las filas de datos -->
+                    <th colspan="2" rowspan="5">Platentas terrestres</th> <!-- "rowspan" indica el nuemero de filas que va a ocupar esa celda. en este caso serían 5 -->
+                    <td>Mercurio</td><td>0,33</td><td>4879</td><td>5,43</td><td>3,7</td><td>4,22</td><td>57,9</td><td>167°</td><td>0</td> <!-- con <td> definimos los datos que van a ir dentro de cada celda de la tabla. --> 
+                <tr>
+                    <td>Venus</td><td>4,87</td><td>12104</td><td>5,24</td><td>8,9</td><td>243</td><td>108,2</td><td>464°</td><td>0</td>
+                </tr>
+                <tr></tr>
+                <tr>
+                    <td>Tierra</td><td>5,97</td><td>12756</td><td>5,52</td><td>9,8</td><td>0,99</td><td>149,6</td><td>15°</td><td>1</td>
+                </tr>
+                <tr>
+                    <td>Marte</td><td>0,642</td><td>6792</td><td>3,93</td><td>3,7</td><td>1,03</td><td>227,9</td><td>-65°</td><td>2</td>
+                </tr>
+                <tr>
+                    <th rowspan="4">Planetas jovianos</th> <!-- acá se indica que planetas jovianos va a ocupar 4 filas, ya que son 4 planetas los que pertenecen a este conjunto -->
+                    <!-- ya que en la cabecera de la tabla en el espacío bacio se inca que va a ocupar dos celdas esta columna, esto hace que podamos utilizar esa misma columna para colocar el nombre de los planetas jovianos, gigantes de gas y gigantes de hielo, sin necesidad de colocar el nombre de cada conjunto en cada fila -->
+                    <th rowspan="2">Los gigante de gas</th> <!-- acá se indica que los gigantes de gas va a ocupar 2 filas, ya que son 2 planetas los que pertenecen a este conjunto -->
+                    <td>Jupiter</td><td>1898</td><td>142984</td><td>1,33</td><td>24,8</td><td>0,41</td><td>778,6</td><td>-110°</td><td>79</td>
+                </tr>
+                <tr>
+                    <td>Saturno</td><td>568</td><td>120536</td><td>0,69</td><td>10,4</td><td>0,45</td><td>1433,5</td><td>-140°</td><td>82</td>
+                </tr>
+                <tr>
+                    <th rowspan="2">Los gigantes de hielo</th> <!-- acá se indica que los gigantes de hielo va a ocupar 2 filas, ya que son 2 planetas los que pertenecen a este conjunto -->
+                    <td>Urano</td><td>86,8</td><td>51118</td><td>1,27</td><td>8,7</td><td>0,72</td><td>2872,5</td><td>-195°</td><td>27</td>
+                </tr>
+                <tr>
+                    <td>Neptuno</td><td>102</td><td>49528</td><td>1,64</td><td>11,3</td><td>0,67</td><td>4504,3</td><td>-200°</td><td>14</td>
+                </tr>
+                <tr>
+                    <th colspan="2">Planetas enanos</th> <!-- por ultimo utilizamos colspan 2 para que esta celda ocupe las dos columnas vacias de la cabecera, ya que no hay un nombre específico para este conjunto de planetas enanos, como si lo hay para los planetas  jovianos. -->
+                    <td>Pluton</td><td>0,0146</td><td>2370</td><td>2095</td><td>0,7</td><td>153,3</td><td>5906,4</td><td>-225°</td><td>5</td>
+                </tr>
+            </tbody>
+                
+        </table>
+    </main>
+</body>
+</html>
